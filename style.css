@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+/* Header styles */
+#header {
+    background-color: #FF5733;
+    padding: 20px;
+    color: white;
+}
+
+#header h1 {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+#header h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px 30px;
+}
+
+#header a:hover {
+    background-color: white;
+    color: #FF5733;
+    border-radius: 5px;
+}
+
+/* Main content area styling */
+h1 {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #555;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+ol {
+    list-style-type: none;
+    padding: 5px;
+    padding-right: 2px;
+}
+
+li {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ol img {
+    display: inline;
+    margin: 20px 0;
+    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding-left: 2px;
+}
+
+h3, p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Pricing section */
+h2.price {
+    color: #FF5733;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Contact and about sections */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 26px;
+    color: #333;
+}
+
+section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
